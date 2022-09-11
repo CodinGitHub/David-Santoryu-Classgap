@@ -1,0 +1,10 @@
+.botonNegro{
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    width: 250px;
+    border-radius: 4px;
+}
+.darkmode{
+    background-color: darkslategrey;
+}
