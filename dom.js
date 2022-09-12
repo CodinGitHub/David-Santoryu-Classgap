@@ -10,12 +10,24 @@ let elementoTitulo = document.getElementById('dos');
 let btn = document.getElementById('btn')
 
 let body = document.getElementsByTagName('body')
+console.log(body)
+
+
+//Cambiar el color del texto al presional el boton "Cambiar Color"
+
+let titulos = document.getElementsByClassName('encabezado');
+titulos = [...titulos]
 
 btn.addEventListener('click', ()=>{
     body[0].classList.toggle('darkmode');
+    titulos.forEach(element => {
+        element.classList.toggle('tituloBlanco');
+    });
 });
 
 // function cambiarColor(){
 //     console.log('Hola')
 //     elementoTitulo.style.color = 'red'
 // }
+
+
