@@ -14,3 +14,14 @@ Genero -> Peliculas que sean solo de 'Drama' por ejemplo
 
 Siente libre de agregar mas filtros si deseas
 */
+
+let moviesContainer = document.querySelector('.movies-container');
+
+data.forEach(movie => {
+    moviesContainer.innerHTML += `
+    <div class="movie">
+        <img class="img" src="${movie.posterurl}" alt="pelicula">
+        <p class="title">${movie.title}</p>
+        <p class="year">${movie.year}</p>
+    </div>`
+});
