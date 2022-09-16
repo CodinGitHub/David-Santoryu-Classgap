@@ -1,0 +1,35 @@
+#dark-mode,
+#light-mode {
+  text-align: right;
+  padding-right: 120px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #273746;
+}
+
+.dark .section-task {
+  color: aliceblue;
+}
+
+.dark .section-task-h4 {
+  color: black;
+}
+
+.dark #dark-mode .fa-moon {
+  color: var(--white);
+}
+
+#dark-mode .fa-sun {
+  color: #f1c40f;
+}
+
+.sun-container{
+  display: none;
+
+}
+
+/* .dark #dark-mode .fa-moon {
+  color: aliceblue;
+} */
